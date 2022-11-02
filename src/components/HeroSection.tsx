@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <div className="border border-red-300 relative"><p>lorem100</p></div>
+    <div className="border border-red-300 relative"><p></p></div>
   )
 }
 

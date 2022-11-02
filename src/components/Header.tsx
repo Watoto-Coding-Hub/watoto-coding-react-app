@@ -1,4 +1,4 @@
-function Navbar() {
+function Header() {
   return (
     <nav className="bg-green-1 p-4 flex space-x-8 text-lg text-white w-full justify-between">
        <div className="flex space-x-8">
@@ -11,4 +11,4 @@ function Navbar() {
   )
 }
 
-export default Navbar;
+export default Header;
