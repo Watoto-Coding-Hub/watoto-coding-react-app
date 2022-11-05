@@ -8,8 +8,8 @@ function App() {
   return (
     <>
        <Header/>
-       {/* <HeroSection/>
-       <About/>
+      <HeroSection/>
+      {/* <About/>
        <Team/>
        <Footer/>    */}
     </>
