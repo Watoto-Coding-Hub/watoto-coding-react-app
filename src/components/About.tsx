@@ -5,9 +5,9 @@ import Img2 from '../assets/media/kibera-2.png'
 
 function About() {
   return (
-    <div className="About bg-green-3 text-white text-center">
-      <h2 className=" text-5xl font-semibold ">About</h2>
-      <p className=" text-2xl font-semibold ">We work in Kibera, a vast slum in Kenya's capital city in Nairobi, currently the largest unplanned settlement in the world</p>
+    <div className="About bg-green-3 text-white text-center py-5">
+      <h2 className=" text-5xl font-semibold pb-5 ">About</h2>
+      <p className=" text-2xl font-semibold pb-10">We work in Kibera, a vast slum in Kenya's capital city in Nairobi, currently the largest unplanned settlement in the world</p>
 <div className='images flex ml-6'>
   <img src={Img1} width='300px' height='181px'></img>
   <img src={Img2} width='300px' height='180px'></img>
@@ -18,8 +18,8 @@ function About() {
   {/* <img src={Img4} width='70px' height='70px'></img> */}
 </div>
 
-<h2 className='text-5xl font-semibold'>Team</h2>
-<p className='text-2xl font-semibold'>There are two of us at the moment but we are looking for more volunteers.</p>
+<h2 className='text-5xl font-semibold pt-10'>Team</h2>
+<p className='text-2xl font-semibold pb-10'>There are two of us at the moment but we are looking for more volunteers.</p>
       </div>
   )
 }
