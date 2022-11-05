@@ -8,12 +8,9 @@ function App() {
   return (
     < div className="bg-green-1">
        <Header/>
+       <HeroSection/>
        <About/>
        <Team/>
-      {/* { <HeroSection/>
-      
-       
-       <Footer/>  }   */}
     </div>
   )
 }
