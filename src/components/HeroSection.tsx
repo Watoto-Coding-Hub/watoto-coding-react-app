@@ -1,5 +1,10 @@
 import * as logo from '../assets/media/new-logo-watoto.jpg';
 import * as video from '../assets/media/hero-video.mp4';
+import instagramSvg from '../assets/media/instagram.svg';
+import twitterSvg from '../assets/media/twitter.svg';
+import facebookSvg from '../assets/media/facebook.svg';
+
+
 
 const videome = video.default;
 const codeLogo = logo.default;
@@ -30,15 +35,21 @@ function HeroSection() {
 
           {/* Social Icons */}
           <div className='pt-16'>
-          <ul className="flex items-center list-none">
-            <li><a className='inline-block pr-10' href="https://www.facebook.com/Watoto-Coding-Community-Hub-105576402109782/" target="_blank"
-              rel="noopener noreferrer"><img className='text-white' src="https://i.ibb.co/x7P24fL/facebook.png" alt='facebook icon'/></a></li>
-            <li><a className='inline-block pr-10' href="https://twitter.com/KyboardNinja" target="_blank"
-              rel="noopener noreferrer"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt='twitter icon' /></a></li>
-            <li><a  className='inline-block' href="https://www.instagram.com/watoto_coding_hub/" target="_blank"
-              rel="noopener noreferrer"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt='instagram icon' /></a></li>
-          </ul>
-        </div>
+            <ul className="flex items-center list-none">
+              <li><a className='inline-block pr-10 hover:scale-75' href="https://www.facebook.com/Watoto-Coding-Community-Hub-105576402109782/" target="_blank"
+                rel="noopener noreferrer">
+                <img src={facebookSvg} alt="facebook icon" width={30} />
+              </a></li>
+              <li><a className='inline-block pr-10 hover:scale-75' href="https://twitter.com/KyboardNinja" target="_blank"
+                rel="noopener noreferrer">
+                <img src={twitterSvg} alt="twitter icon" width={30} />
+              </a></li>
+              <li><a className='inline-block hover:scale-75' href="https://www.instagram.com/watoto_coding_hub/" target="_blank"
+                rel="noopener noreferrer">
+                <img src={instagramSvg} alt="instagram icon" width={30} />
+              </a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
