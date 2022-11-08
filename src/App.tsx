@@ -2,6 +2,7 @@ import HeroSection from "./components/HeroSection"
 import Header from "./components/Header"
 import About from "./components/About"
 import Team from "./components/Team"
+import Fundraising from "./components/Fundaraising"
 import Footer from "./components/Footer"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
        <HeroSection/>
        <About/>
        <Team/>
+       <Fundraising/>
     </div>
   )
 }
