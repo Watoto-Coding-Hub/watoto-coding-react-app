@@ -1,0 +1,98 @@
+.hero{
+    position: relative;
+}
+
+.video{
+    object-fit: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.description-title{
+    background-color: rgba(26,67,49, 0.7);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.introduction .title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.introduction .descriptions{
+    width: 75%;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.introduction button{
+    margin-top: 3rem;
+    background-color: rgb(26,67,49);
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 32px;
+}
+
+.social-icons *{
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+    .video{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+
+    .introduction h1{
+        font-size: 24px;
+    }
+
+    .introduction .title{
+        font-size: 16px;
+    }
+
+    .introduction .descriptions{
+        width: 100%;
+        font-size: 16px;
+        margin-top: 2rem;
+        font-weight: normal;
+    }
+
+    .introduction button{
+        margin-top: 1.5rem;
+        font-size: 16px;
+    }
+
+    .social-icons{
+        font-size: 24px;
+    }
+}
