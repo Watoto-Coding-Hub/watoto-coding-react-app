@@ -1,4 +1,4 @@
-function Fundaraising(){
+function Fundraising(){
     
 return(
     <div className="Fundraising bg-green-3 pt-10 text-white flex flex-col justify-center items-center max-sm:px-12 ">
@@ -21,4 +21,4 @@ return(
 
 
 }
-export default Fundaraising
+export default Fundraising
