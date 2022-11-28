@@ -8,14 +8,14 @@ function Footer() {
   return (
 
     <footer className="p-4 bg-dark sm:p-6">
-      <div className="md:flex md:justify-between mt-6 mx-20">
+      <div className="md:flex md:justify-between mt-6 md:mx-20">
 
         {/* Map Area */}
         <div className='mb-6 md:mb-0'>
           <h2 className="text-sm mb-4 font-semibold text-light uppercase">Come visit us at our area</h2>
 
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7739615708874!2d36.766688949624786!3d-1.3109779990391233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1bf6a1f2c2e9%3A0x3c40b885e8f31736!2sKenya%20Scouts%20Association-%20Rowallan%20Scout%20Camp!5e0!3m2!1sen!2ske!4v1669652042598!5m2!1sen!2ske" width="300" height="200" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          
+
         </div>
 
 
@@ -30,7 +30,7 @@ function Footer() {
 
         </div>
 
-        <div>
+        <div className='md:mt-0 mt-4'>
           <h2 className="mb-6 text-sm font-semibold text-light uppercase">Contact Us</h2>
           <a className='flex text-light hover:text-slate-400' href="mailto:info@watotocoding.org">Email us &nbsp; <FaRegEnvelope size={25} /></a>
 
