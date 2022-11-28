@@ -13,6 +13,7 @@ function App() {
        <About/>
        <Team/>
        <Fundraising/>
+       <Footer/>
     </div>
   )
 }
