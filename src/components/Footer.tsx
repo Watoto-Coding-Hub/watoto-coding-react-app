@@ -56,11 +56,10 @@ function Footer() {
             <FaFacebook size={30} />
           </a>
 
-          <a className='hover:scale-75 pr-4 pl-4 text-light hover:text-slate-300' href="https://www.facebook.com/Watoto-Coding-Community-Hub-105576402109782/" target="_blank"
-            rel="noopener noreferrer">
+          <a className='hover:scale-75 pr-4 pl-4 text-light hover:text-slate-300' href="https://twitter.com/KyboardNinja" target="_blank" rel="noopener noreferrer">
             <FaTwitter size={30} />
           </a>
-          <a className='hover:scale-75 text-light hover:text-slate-300' href="https://www.facebook.com/Watoto-Coding-Community-Hub-105576402109782/" target="_blank"
+          <a className='hover:scale-75 text-light hover:text-slate-300' href="https://www.instagram.com/watoto_coding_hub/" target="_blank"
             rel="noopener noreferrer">
             <FaInstagram size={30} />
           </a>
