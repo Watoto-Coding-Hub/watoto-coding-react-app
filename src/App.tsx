@@ -12,7 +12,7 @@ function App() {
        <HeroSection/>
        <About/>
        <Team/>
-       <Fundraising/>
+       {/* <Fundraising/> */}
        <Footer/>
     </div>
   )
