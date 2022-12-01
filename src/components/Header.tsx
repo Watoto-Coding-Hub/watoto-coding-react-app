@@ -24,7 +24,7 @@ function Header() {
       </div>       
      </div>
 
-     <nav className="container mx-auto bg-white rounded-full mt-10 py-6 px-10 flex justify-between">
+     <nav className="container mx-auto bg-white rounded-full mt-10 py-6 px-10 flex justify-between shadow-2xl">
         <FaBars className="md:hidden text-3xl"/>
         <ul className="hidden md:flex space-x-12 text-xl font-semibold">
         <li className="hover:text-red"><a href="#">Team</a></li>
