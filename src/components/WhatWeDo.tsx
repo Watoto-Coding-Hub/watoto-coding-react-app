@@ -3,7 +3,7 @@ import {FaCubes} from "react-icons/fa"
 import {IoGameController} from "react-icons/io5"
 function WhatWeDo() {
   return (
-    <article className="min-h-[80vh] bg-blue-1 font-Poppins text-white text-center flex flex-col justify-center items-center gap-16 p-4">
+    <article className="min-h-[80vh] bg-green-1 font-Poppins text-white text-center flex flex-col justify-center items-center gap-16 p-4">
         <h3 className="text-5xl">What Do We Do?</h3>
        <section className="mx-auto container grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl">
              <div className="cards border min-h-[30rem] flex flex-col rounded-lg bg-white items-center p-4 justify-center space-y-6">

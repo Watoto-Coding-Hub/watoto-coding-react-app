@@ -1,7 +1,7 @@
 function Fundraising(){
     
 return(
-    <div className="Fundraising bg-grey-2 pt-10 text-dark flex flex-col justify-center items-center max-sm:px-12 ">
+    <div className="Fundraising bg-grey-2 pt-10 text-dark flex flex-col justify-center items-center max-sm:px-12" id="fundraising">
    <h2 className="text-5xl font-semibold text-red">Fundrasing</h2>
    <p className="max-w-5xl text-3xl font-semibold  pt-5">Kids do not have laptops or a stable internet connection and it's becoming increasingly
      hard for us to provide them with the education they deserve. See our fundraising document below.</p>

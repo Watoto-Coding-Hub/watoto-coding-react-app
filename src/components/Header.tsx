@@ -1,9 +1,18 @@
 import {MdLocationPin, MdAlarm} from "react-icons/md"
 import{FaLinkedin, FaTwitter, FaFacebook, FaBars} from "react-icons/fa"
-import logo from "../assets/media/new-logo-watoto.jpg"
+import logo from "../assets/media/logo_new.jpg"
+import {
+  Drawer,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+} from '@chakra-ui/react'
 function Header() {
   return (
-   <header className="min-h-screen bg-grey-1 flex flex-col font-Poppins p-4">
+   <header className="min-h-screen bg-green-1 flex flex-col font-Poppins p-4">
      <div className="flex justify-between items-center container mx-auto mt-8">
       <img src={logo} alt="watoto coding logo" className="w-16 md:w-24"/>
       <div className="flex space-x-2 md:space-x-16">
@@ -27,9 +36,9 @@ function Header() {
      <nav className="container mx-auto bg-white rounded-full mt-10 py-6 px-10 flex justify-between shadow-2xl">
         <FaBars className="md:hidden text-3xl"/>
         <ul className="hidden md:flex space-x-12 text-xl font-semibold">
-        <li className="hover:text-red"><a href="#">Team</a></li>
-        <li className="hover:text-red"><a href="#">Fundraising</a></li>
-        <li className="hover:text-red"><a href="#">Contact</a></li>
+        <li className="hover:text-red"><a href="#team">Team</a></li>
+        <li className="hover:text-red"><a href="#fundraising">Fundraising</a></li>
+        <li className="hover:text-red"><a href="#contact">Contact</a></li>
         </ul>
         <div className="social-links flex space-x-10 text-2xl">
           <FaLinkedin className="text-blue-2"/>

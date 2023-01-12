@@ -7,7 +7,7 @@ import WhatWeDo from "./components/WhatWeDo"
 
 function App() {
   return (
-    < div className="bg-green-1">
+    <div className="bg-green-1">
        <Header/>
        <WhatWeDo/>
        <About/>

@@ -7,7 +7,7 @@ function Footer() {
 
   return (
 
-    <footer className="p-4 bg-dark sm:p-6">
+    <footer className="p-4 bg-dark sm:p-6" id="contact">
       <div className="md:flex md:justify-between mt-6 md:mx-20">
 
         {/* Map Area */}

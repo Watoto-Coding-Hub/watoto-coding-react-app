@@ -8,11 +8,16 @@ module.exports = {
     extend: {
       colors:{
         "grey-1":"#b2b2b2",
+        "green-1":"#1a4331",
+        "green-2":"#41916c",
+        "green-3":"#2c664e",
         "light":"#fff",
+        "dark":"#111",
+        "ligh-2":"#fff",
         "grey-2":"#f6f5f5",
         "blue-1":"#17a2b8",
         "yellow-1":"#ffc107",
-        "dark": "#343a40",
+        "dark-2": "#343a40",
         "marron":"#dc3545 ",
         "red":"#fd4d40",
         "orange":"#fdb62f",

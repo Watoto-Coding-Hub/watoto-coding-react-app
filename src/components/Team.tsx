@@ -3,7 +3,7 @@ import CostanzaImage from '../assets/media/costanzaprofile.jpg'
 
 function Team() {
   return (
-    <article className="Team bg-blue-2 min-h-[90vh] flex flex-col justify-center items-center">
+    <article className="Team bg-blue-2 min-h-[90vh] flex flex-col justify-center items-center p-4" id="team">
       <h1 className='text-center font-bold text-3xl pt-4'> OUR TEAM</h1>
       <div className=" grid grid-cols-2 max-sm:flex flex-col mt-8 gap-6">
         <div className='max-w-3xl bg-red rounded-lg  p-4' >
