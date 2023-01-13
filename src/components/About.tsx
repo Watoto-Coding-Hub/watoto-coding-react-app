@@ -4,7 +4,7 @@ import Img3 from '../assets/media/kibera-6.jpg'
 
 function About() {
   return (
-    <div className='About bg-grey-2 flex gap-5 p-10 max-sm:flex-col' >
+    <div className='About bg-green-2 flex gap-5 p-10 max-sm:flex-col' >
       <picture className='m-4'>
       <img src={Img3} alt="An image of the Kibera slums"  className="object-contain h-100 w-`100"></img>
       </picture>

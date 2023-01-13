@@ -1,6 +1,10 @@
 import {MdLocationPin, MdAlarm} from "react-icons/md"
 import{FaLinkedin, FaTwitter, FaFacebook, FaBars} from "react-icons/fa"
 import logo from "../assets/media/logo_new.jpg"
+import headerVideo from "../assets/media/hero-video.mp4"
+import Plyr from "plyr-react"
+import "plyr-react/plyr.css"
+
 import {
   Drawer,
   DrawerBody,
@@ -38,6 +42,8 @@ function Header() {
         <ul className="hidden md:flex space-x-12 text-xl font-semibold">
         <li className="hover:text-red"><a href="#team">Team</a></li>
         <li className="hover:text-red"><a href="#fundraising">Fundraising</a></li>
+        <li className="hover:text-red"><a href="#contact">Podcast</a></li>
+        <li className="hover:text-red"><a href="#contact">Volunteer</a></li>
         <li className="hover:text-red"><a href="#contact">Contact</a></li>
         </ul>
         <div className="social-links flex space-x-10 text-2xl">
@@ -46,16 +52,25 @@ function Header() {
           <FaTwitter className="text-blue-1"/>
         </div>
      </nav>
-     <div className="grid md:grid-cols-2 container mx-auto my-auto">
+     <div className="grid md:grid-cols-2 container mx-auto my-auto items-center gap-12">
      <section className="flex flex-col space-y-10 text-white">
        <div>
-       <h2 className="text-yellow-1 font-Poppins">A Hub for learners withing marginalized communities</h2>
+       <h2 className="text-yellow-1 font-Poppins md:mt-0 mt-12">A Hub for learners within marginalized communities</h2>
        <h1 className="text-5xl font-extrabold">WATOTO CODING HUB</h1>
        </div>
-       <p className="text-xl">A charity teaching tech-skills to the kids of the Kibera slums. There is so much untapped potential in marginalized communities and to cultivate it we make technology accessible.</p>
+       <p className="text-xl max-w-xl">A charity teaching tech-skills to the kids of the Kibera slums. There is so much untapped potential in marginalized communities and to cultivate it we make technology accessible.</p>
        <button className='bg-red p-5 rounded-tl-3xl rounded-br-3xl w-44'>Learn More</button>
      </section>
-     
+     <Plyr source={{
+          type: "video",
+          sources: [
+            {
+              src: headerVideo,
+            }
+          ]
+        }} 
+        options={{autoplay:true,muted:false,controls:false}}        
+        />
      </div>
      
    </header>
