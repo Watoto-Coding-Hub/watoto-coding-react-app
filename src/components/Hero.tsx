@@ -3,7 +3,7 @@ import Plyr from "plyr-react"
 import "plyr-react/plyr.css"
 function Hero() {
   return (
-    <div className="grid md:grid-cols-2 container mx-auto my-auto items-center gap-12 mt-24 p-4">
+    <div className="grid md:grid-cols-2 container mx-auto my-auto items-center gap-12 md:mt-24 p-4">
     <section className="flex flex-col space-y-10 text-white">
       <div>
       <h2 className="text-yellow-1 font-Poppins md:mt-0 mt-12">A Hub for learners within marginalized communities</h2>

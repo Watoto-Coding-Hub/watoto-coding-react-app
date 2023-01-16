@@ -27,8 +27,8 @@ function Header() {
         <div className="open-time-section flex space-x-3">
           <MdAlarm className="text-2xl md:text-4xl text-red" />
           <div className="flex flex-col text-white text-sm md:text-md">
-            <p>Open Mon-Fri: 8.00AM-5.00pm</p>
-            <p>Sundays CLOSED</p>
+            <p>Open Saturday</p>
+            <p>Time: 8.00AM-5.00pm</p>
           </div>
         </div>
       </div>
