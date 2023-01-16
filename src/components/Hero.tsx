@@ -20,7 +20,7 @@ function Hero() {
            }
          ]
        }} 
-       options={{autoplay:true,muted:false,controls:false}}        
+       options={{autoplay:true,muted:false,controls:"false"}}        
        />
     </div>
   )
