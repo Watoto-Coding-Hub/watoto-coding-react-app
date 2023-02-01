@@ -1,15 +1,5 @@
 import { MdLocationPin, MdAlarm } from "react-icons/md";
 import logo from "../assets/media/logo_new.jpg";
-import Navbar from "./Navbar";
-import {
-  Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
-} from "@chakra-ui/react";
 function Header() {
   return (
     <div className="flex justify-between items-center container mx-auto p-4">

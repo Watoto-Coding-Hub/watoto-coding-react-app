@@ -5,8 +5,9 @@ function Team() {
   return (
     <article className="Team bg-green-1 min-h-screen flex flex-col justify-center items-center p-4 text-white" id="team">
       <h1 className='text-center font-bold text-3xl pt-4'> OUR TEAM</h1>
+      <p className="mt-5 text-xl">The team is made of two main members and 20 passionate volunteers</p>
       <div className=" grid grid-cols-2 max-sm:flex flex-col mt-8 gap-6">
-        <div className='max-w-3xl bg-red rounded-lg  p-4' >
+        <div className='max-w-3xl bg-red rounded-lg  p-4'>
  <img src={LeonardImage} alt="An image of Leonard" className="w-48 h-48 rounded-full m-auto mt-4 object-cover"/> 
 
  <div>

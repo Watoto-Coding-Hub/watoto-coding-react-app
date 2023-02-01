@@ -1,14 +1,24 @@
-import { FaTwitter, FaFacebook, FaBars, FaInstagram } from "react-icons/fa";
+
+import { useState } from "react";
+import { FaBars} from "react-icons/fa";
 import { Link } from "react-scroll";
-import DropDown from "./DropDown";
 const linkClass =
   "hover:text-red cursor-pointer transition ease-linear hover:-translate-y-1 hover:scale-110";
+const showNav = "absolute bg-white text-black mt-8 max-w-[700px] py-8 px-12 rounded-md"
+const hideNav = "hidden bg-white text-black mt-8 max-w-[700px] py-8 px-12 rounded-md" 
 
-function Navbar() {
+function DropDown() {
+    const [isActive,setActive] = useState(false)
+    const toggleClass = () =>{
+        setActive(!isActive)
+    }
   return (
-    <nav className="container mx-auto bg-white rounded-full mt-10 py-3 px-5 md:py-6 md:px-10 flex justify-between shadow-2xl sticky top-0 z-10 transition ease-in">
-      <DropDown/>
-      <ul className="hidden lg:flex space-x-12 font-semibold">
+ <div className="lg:hidden">    
+    <button onClick={toggleClass} className="border-none">
+    <FaBars className="text-2xl md:text-3xl"/>
+    </button>
+    <nav className={isActive ? showNav : hideNav}>
+    <ul className="flex flex-col gap-4 font-semibold">
         <li className={linkClass}>
           <Link
             to="team"
@@ -81,31 +91,9 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-      <div className="social-links flex space-x-10 text-2xl">
-        <a
-          href="https://www.instagram.com/watoto_coding_hub/"
-          target="_blank"
-          className="transition ease-linear hover:-translate-y-1 hover:scale-110"
-        >
-          <FaInstagram className="text-blue-2" />
-        </a>
-        <a
-          href="https://www.facebook.com/Watoto-Coding-Community-Hub-105576402109782/"
-          className="transition ease-linear hover:-translate-y-1 hover:scale-110"
-          target="_blank"
-        >
-          <FaFacebook className="text-green" />
-        </a>
-        <a
-          href="https://twitter.com/watotocoding"
-          target="_blank"
-          className="transition ease-linear hover:-translate-y-1 hover:scale-110"
-        >
-          <FaTwitter className="text-blue-1" />
-        </a>
-      </div>
     </nav>
-  );
+ </div>
+  )
 }
 
-export default Navbar;
+export default DropDown
