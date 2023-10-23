@@ -1,5 +1,5 @@
-import LeonardImage from '../assets/media/leonard.jpg'
-import CostanzaImage from '../assets/media/costanzaprofile.jpg'
+import LeonardImage from '../assets/media/leonard.webp';
+import CostanzaImage from '../assets/media/costanzaprofile.webp';
 
 function Team() {
   return (
