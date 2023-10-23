@@ -19,12 +19,36 @@ function DropDown() {
     </button>
     <nav className={isActive ? showNav : hideNav}>
     <ul className="flex flex-col gap-4 font-semibold">
+    <li className={linkClass}>
+          <Link
+            to="whatwedo"
+            spy={true}
+            smooth={true}
+            duration={100}
+            offset={-100}
+            activeClass="text-red transition ease-in"
+          >
+            What We Teach
+          </Link>
+        </li>
+        <li className={linkClass}>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={100}
+            activeClass="text-red transition ease-in"
+            offset={-70}
+          >
+            Kibera
+          </Link>
+        </li>
         <li className={linkClass}>
           <Link
             to="team"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             activeClass="text-red transition ease-in"
             offset={-100}
           >
@@ -36,43 +60,21 @@ function DropDown() {
             to="fundraising"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             offset={-100}
             activeClass="text-red transition ease-in"
           >
             Fundraising
           </Link>
         </li>
-        <li className={linkClass}>
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={300}
-            offset={-100}
-            activeClass="text-red transition ease-in"
-          >
-            What We Teach
-          </Link>
-        </li>
-        <li className={linkClass}>
-          <Link
-            to="podcasts"
-            spy={true}
-            smooth={true}
-            duration={300}
-            offset={-100}
-            activeClass="text-red transition ease-in"
-          >
-            Podcast
-          </Link>
-        </li>
+        
         <li className={linkClass}>
           <Link
             to="volunteer"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
+            offset={-60}
             activeClass="text-red transition ease-in"
           >
             Volunteer
@@ -80,9 +82,21 @@ function DropDown() {
         </li>
         <li className={linkClass}>
           <Link
+            to="visit"
+            spy={true}
+            smooth={true}
+            duration={100}
+            offset={-60}
+            activeClass="text-red transition ease-in"
+          >
+            Visit
+          </Link>
+        </li>
+        <li className={linkClass}>
+          <Link
             to="contact"
             smooth={true}
-            duration={300}
+            duration={100}
             spy={true}
             activeClass="text-red transition ease-in"
             offset={-100}
