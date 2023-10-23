@@ -14,7 +14,7 @@ function Navbar() {
             to="team"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             activeClass="text-red transition ease-in"
             offset={-100}
           >
@@ -26,7 +26,7 @@ function Navbar() {
             to="fundraising"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             offset={-100}
             activeClass="text-red transition ease-in"
           >
@@ -38,7 +38,7 @@ function Navbar() {
             to="about"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             offset={-100}
             activeClass="text-red transition ease-in"
           >
@@ -50,7 +50,7 @@ function Navbar() {
             to="podcasts"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             offset={-100}
             activeClass="text-red transition ease-in"
           >
@@ -62,7 +62,7 @@ function Navbar() {
             to="volunteer"
             spy={true}
             smooth={true}
-            duration={300}
+            duration={100}
             activeClass="text-red transition ease-in"
           >
             Volunteer
@@ -72,7 +72,7 @@ function Navbar() {
           <Link
             to="contact"
             smooth={true}
-            duration={300}
+            duration={100}
             spy={true}
             activeClass="text-red transition ease-in"
             offset={-100}
