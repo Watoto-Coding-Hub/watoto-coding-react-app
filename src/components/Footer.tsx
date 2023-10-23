@@ -1,5 +1,6 @@
 import { FaRegHeart, FaTwitter, FaFacebook, FaInstagram, FaRegEnvelope, FaPhone } from 'react-icons/fa';
-import {Element} from "react-scroll"
+import { Element } from "react-scroll"
+import podcast from "../assets/media/mic-icon.webp";
 
 function Footer() {
 
@@ -22,20 +23,32 @@ function Footer() {
           <h1 className='font-bold text-light uppercase'>New to Watoto coding?</h1>
           <p className="text-slate-300 text-sm pb-4">Subscribe to our newsletter and you'll be among the first to find out about our new stories.</p>
           <iframe src="https://embeds.beehiiv.com/a98ce480-96a1-4bc7-9ff0-afd0f3605950?slim=true" data-test-id="beehiiv-embed" frameBorder="0" scrolling="no"></iframe>
-
-          {/* <input placeholder='example@gmail.com' className='p-2 rounded outline-none px-4' />
-          <button className='bg-red rounded-tl-3xl md:ml-4 mt-2 md:mt-0 rounded-br-3xl pt-2 pb-2 pl-8 pr-8 text-light'>Subscribe</button> */}
-
         </div>
 
         <div className='md:mt-0 mt-2'>
           <h2 className="mb-6 text-sm font-semibold text-light uppercase">Contact Us</h2>
-          <a className='flex text-light hover:text-slate-400' href="mailto:info@watotocoding.org">Email us &nbsp; <FaRegEnvelope size={25} /></a>
-
-          <div className="flex text-light hover:text-slate-400 pt-4">
-            <FaPhone />
-            <a href="tel:+254 759 783 366" className='pl-2'>+254 759 783 366 </a>
+          <div>
+            <h2 className="text-sm text-light uppercase mb-2">Email Us:</h2>
+            <a className='text-light hover:text-slate-400' href="mailto:info@watotocoding.com
+        "rel="noopener noreferrer">info@watotocoding.com </a>
+            <a className='text-light hover:text-slate-400' href="mailto:leonard@watotocoding.com
+        "rel="noopener noreferrer">leonard@watotocoding.com</a>
           </div>
+
+          <div className='mt-4'>
+            <h2 className="text-sm text-light uppercase mb-2">Call Us:</h2>
+            <div className='flex flex-col'>
+            <a className='text-light hover:text-slate-400' href="tel:+254 759 783 366
+        "rel="noopener noreferrer">+254 759 783 366</a>
+
+            <a className='text-light hover:text-slate-400' href="tel:+39 339 530 1885
+        "rel="noopener noreferrer">+39 339 530 1885</a>
+            </div>
+          </div>
+        </div>
+        <div className='md:mt-0 mt-2'>
+          <h2 className="mb-6 text-sm font-semibold text-light uppercase">Podcast</h2>
+          <a href="https://anchor.fm/watotocoding"  target="_blank"><img className="w-20 h-20" src={podcast} alt="icon of a microphone"/></a>
         </div>
 
       </div>
