@@ -99,7 +99,7 @@ function DropDown() {
             duration={100}
             spy={true}
             activeClass="text-red transition ease-in"
-            offset={-100}
+            offset={-30}
           >
             Contact
           </Link>
