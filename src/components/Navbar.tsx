@@ -51,7 +51,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             duration={100}
-            offset={-60}
+            offset={-70}
             activeClass="text-red transition ease-in"
           >
             Fundraising
@@ -63,6 +63,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             duration={100}
+            offset={-60}
             activeClass="text-red transition ease-in"
           >
             Volunteer
@@ -74,6 +75,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             duration={100}
+            offset={-60}
             activeClass="text-red transition ease-in"
           >
             Visit
