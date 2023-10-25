@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Visit from "./components/Visit"
 import Volunteer from "./components/Volunteer"
+import Gallery from "./components/Gallery"
 function App() {
   return (
     <div className="bg-green-1">
@@ -17,6 +18,7 @@ function App() {
        <WhatWeDo/>
        <About/>
        <Team/>
+       <Gallery/>
        <Fundraising/>
        <Volunteer/>
        <Visit/>
