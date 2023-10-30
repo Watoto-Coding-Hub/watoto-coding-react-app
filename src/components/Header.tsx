@@ -1,5 +1,5 @@
 import { MdLocationPin, MdAlarm } from "react-icons/md";
-import logo from "../assets/media/logo_new.jpg";
+import logo from "../assets/media/Watoto-New-Logo.webp";
 function Header() {
   return (
     <div className="flex justify-between items-center container mx-auto p-4">

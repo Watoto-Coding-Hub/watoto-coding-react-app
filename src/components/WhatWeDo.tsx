@@ -3,7 +3,7 @@ import {FaCubes} from "react-icons/fa"
 import {IoGameController} from "react-icons/io5"
 function WhatWeDo() {
   return (
-    <article className="min-h-[100vh] font-Poppins text-white text-center flex flex-col justify-center items-center gap-16 p-4 mt-8" id="about">
+    <article className="whatwedo min-h-[100vh] font-Poppins text-white text-center flex flex-col justify-center items-center gap-16 p-4 mt-8" id="whatwedo">
         <div>
         <h3 className="text-5xl">What do we do</h3>
         <p className="mt-5 text-xl">We run a Saturday programme to teach 30 kids aged 7-16.</p>
